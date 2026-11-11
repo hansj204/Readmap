@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-import path from "path/win32";
+import path from "node:path";
 
 const nextConfig: NextConfig = {
   experimental: {
